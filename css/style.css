@@ -77,11 +77,13 @@ header {
 button.blue {
   background-color: #0c325a;
   padding: 0 30px;
+  border: 2px solid #fff;
 }
 
 button.green {  /* header-top & header-title */
   background-color: #7cbb02;
   padding: 0 15px;
+  border: none;
 }
 
 button {  /* header-top & header-title */
@@ -201,7 +203,48 @@ section.discover img {
 /* footer */
 footer {
   background-color: #d3d3d3;
+  font-size: 30px;
+  padding-bottom: 50px;
 }
 
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer > div.box {
+  padding: 50px 0;
+}
+
+footer div.col-left {
+  float: left;
+  width: calc(100%/2);
+}
+
+footer div.col-right {
+  float: right;
+  width: calc(100%/2);
+  padding-left: 50px;
+}
+
+footer label {
+  padding-right: 15px;
+}
+
+footer option {
+  padding: 0 15px;
+}
+
+footer button.green {
+  color: #fff;
+  margin: 0 10px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+footer .col-right > * {
+  color: #808080;
+}
 
 /* /footer */
