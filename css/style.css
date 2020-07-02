@@ -103,3 +103,17 @@ h1 {
   padding: 15px;
 }
 /* /header-title */
+
+/* section.banner-gray */
+section.banner-gray {
+  background-color: lightgray;
+  font-weight: 200;
+  text-align: center;
+  padding: 30px 0;
+  line-height: 40px;
+}
+
+section.banner-gray h3 {
+  color: gray;
+}
+/* /section.banner-gray */
