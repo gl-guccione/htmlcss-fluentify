@@ -7,3 +7,12 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+header {
+  height: 550px;
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-size: 1050px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
