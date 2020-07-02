@@ -13,6 +13,12 @@ body {
   width: 85%;
   margin: auto;
 }
+
+main > hr {
+  width: 95%;
+  margin: auto;
+  background-color: #808080;
+}
 /* /general */
 
 header {
@@ -117,3 +123,45 @@ section.banner-gray h3 {
   color: gray;
 }
 /* /section.banner-gray */
+
+/* section.skill */
+section.skill {
+  text-align: center;
+}
+
+section.skill::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section.skill > div {
+  float: left;
+  padding: 50px 20px;
+  width: calc(100%/3);
+}
+
+div.three-column > * {
+  margin: 20px 0;
+}
+
+div.three-column > img {
+  height: 150px;
+}
+
+div.three-column > h2 {
+  color: #7cbb02;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+div.three-column > hr {
+  width: 20%;
+  margin: auto;
+}
+
+div.three-column > p {
+  color: #808080;
+  line-height: 30px;
+}
+/* /section.skill */
