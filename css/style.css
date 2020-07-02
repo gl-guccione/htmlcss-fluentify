@@ -15,8 +15,8 @@ body {
 }
 /* /general */
 
-/* header */
 header {
+  position: relative;
   height: 550px;
   background-color: #0c325a;
   background-image: url(../img/background-header.png);
@@ -25,6 +25,7 @@ header {
   background-repeat: no-repeat;
 }
 
+/* header-top */
 .logo > img {
   height: 40px;
 }
@@ -32,6 +33,10 @@ header {
 #header-top > * {
   float: left;
   padding-top: 20px;
+}
+
+#header-top > nav {
+  margin-top: 7px;
 }
 
 #header-top > nav.menu-1 {
@@ -67,14 +72,34 @@ button.blue {
   padding: 0 30px;
 }
 
-button.green {
+button.green {  /* header-top & header-title */
   background-color: #7cbb02;
   padding: 0 15px;
 }
 
-button {
+button {  /* header-top & header-title */
   border-radius: 6px;
+  text-transform: uppercase;
+}
+/* /header-top */
+
+/* header-title */
+#header-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 40%;
+  color: #fff;
 }
 
+h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
 
-/* /header */
+#header-title button.green {
+  color: #fff;
+  font-size: 16px;
+  padding: 15px;
+}
+/* /header-title */
