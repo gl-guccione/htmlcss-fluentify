@@ -1,3 +1,4 @@
+/* general  */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.box {
+  width: 85%;
+  margin: auto;
+}
+/* /general */
+
+/* header */
 header {
   height: 550px;
   background-color: #0c325a;
@@ -16,3 +24,57 @@ header {
   background-position: bottom right;
   background-repeat: no-repeat;
 }
+
+.logo > img {
+  height: 40px;
+}
+
+#header-top > * {
+  float: left;
+  padding-top: 20px;
+}
+
+#header-top > nav.menu-1 {
+  padding-left: 30px;
+}
+
+#header-top > nav.menu-2 {
+  float: right;
+}
+
+#header-top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header-top nav ul > li {
+  font-size: 12px;
+  padding: 0 15px;
+  display: inline-block;
+  list-style: none;
+}
+
+#header-top nav ul > li > * {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+button.blue {
+  background-color: #0c325a;
+  padding: 0 30px;
+}
+
+button.green {
+  background-color: #7cbb02;
+  padding: 0 15px;
+}
+
+button {
+  border-radius: 6px;
+}
+
+
+/* /header */
