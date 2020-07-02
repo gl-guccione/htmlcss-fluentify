@@ -176,6 +176,12 @@ section.discover > * {
   padding: 50px 30px;
 }
 
+section.discover::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 div.two-column h2 {
   font-size: 38px;
 }
@@ -191,3 +197,11 @@ section.discover img {
   width: 90%;
 }
 /* /section.discover */
+
+/* footer */
+footer {
+  background-color: #d3d3d3;
+}
+
+
+/* /footer */
