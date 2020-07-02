@@ -17,7 +17,8 @@ body {
 main > hr {
   width: 95%;
   margin: auto;
-  background-color: #808080;
+  background-color: #d3d3d3;
+  opacity: 0.2;
 }
 /* /general */
 
@@ -158,6 +159,8 @@ div.three-column > h2 {
 div.three-column > hr {
   width: 20%;
   margin: auto;
+  background-color: #d3d3d3;
+  opacity: 0.2;
 }
 
 div.three-column > p {
@@ -165,3 +168,26 @@ div.three-column > p {
   line-height: 30px;
 }
 /* /section.skill */
+
+/* section.discover */
+section.discover > * {
+  float: left;
+  width: calc(100%/2);
+  padding: 50px 30px;
+}
+
+div.two-column h2 {
+  font-size: 38px;
+}
+
+div.two-column p {
+  font-size: 23px;
+  line-height: 30px;
+  color: gray;
+  padding: 20px 0;
+}
+
+section.discover img {
+  width: 90%;
+}
+/* /section.discover */
